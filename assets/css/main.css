@@ -3447,5 +3447,5 @@ input[type="button"]:disabled,
 }
 
 #banner {
-  max-width: 100%;
+  max-width: 100vw;
 }
