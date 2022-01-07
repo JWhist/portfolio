@@ -3434,10 +3434,19 @@ input[type="button"]:disabled,
   }
 }
 
+.imgwrap {
+  display: grid;
+  place-items: center;
+}
+
 #ableLogo {
   aspect-ratio: 16 / 9;
   max-width: 50%;
   filter: drop-shadow(5px 5px 5px #dddada);
+}
+
+#ableLogo:hover {
+  cursor: pointer;
 }
 
 #jello,
@@ -3446,6 +3455,23 @@ input[type="button"]:disabled,
   border: 1px solid #dddada;
 }
 
-#banner {
-  max-width: 100vw;
+#gif {
+  max-width: 384px;
+  max-height: 320px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  #gif {
+    max-width: 212px;
+    max-height: 176px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #gif {
+    max-width: 308px;
+    max-height: 256px;
+    padding: 10px;
+  }
 }

@@ -4,7 +4,7 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 -->
-<html>
+<html lang='en'>
 	<head>
 		<title>Jordan Whistler</title>
 		<meta charset="utf-8" />
@@ -18,16 +18,17 @@
 				<header>
 					<span class="image avatar"><img src="images/profilepic.png" alt="" /></span>
 					<h1 id="logo"><a href="#">Jordan Whistler</a></h1>
-					<p>Full-stack Engineer with a love for automation, testing and making peoples' lives more enjoyable through
-						technology</p>
+					<p>I am a software engineer based in Eastern North Carolina with experience developing web applications on cloud
+						infrastructure. I recently co-created Able, an A/B testing framework for deploying split tests to Cloudflare Pages
+						applications using Edge Workers and AWS services.</p>
 				</header>
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">Projects</a></li>
 						<li><a href="resume.pdf">Resume</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#three">Projects</a></li>
+						<!-- <li><a href="#four">Contact</a></li> -->
 					</ul>
 				</nav>
 				<footer>
@@ -49,13 +50,17 @@
 
 						<!-- One -->
 							<section id="one">
-									<img src="images/banner.gif" alt="" id='banner'/>
 								<div class="container">
 									<header class="major">
-										<a href='https://www.able-test.com' style='border: none'><img src="images/able_logo color.png" id="ableLogo"></a>
+										<div class='imgwrap'>
+											<img src="images/able_logo_color.png" id="ableLogo" alt='Able logo' onclick="window.location.href = 'https:\/\/www.able-test.com/case'">
+										</div>
 										<p>A/B Testing for Cloudflare Pages Applications</p>
 									</header>
 									<p>Able is an open-source A/B testing framework that makes it easy to set up and track A/B tests for Jamstack applications on Cloudflare’s edge network. This case study explores how Able facilitates A/B testing by abstracting away the process of splitting the traffic between two or more variants of a web site, as well as setting up Umami analytics to track the differences in performance.</p>
+									<div class='imgwrap'>
+										<img src='images/simplified-able-diagram.gif' alt='Able architectural diagram' id='gif'>
+									</div>
 									<p>Learn how I co-created this project <a href='http://www.able-test.com' style="color:#64a2d0">HERE</a></p>
 								</div>
 							</section>
@@ -64,7 +69,7 @@
 							<section id="two">
 								<div class="container">
 									<h3>Skills and Technologies</h3>
-									<p>Below are some of the languages and software I've worked with in the past and present. I am also capable of learning new technologies on a just-in-time basis, with excellent researching and documentation skills.</something></p>
+									<p>Below are some of the languages and software I've worked with in the past and present. I am also capable of learning new technologies on a just-in-time basis, with excellent researching and documentation skills.</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code">Javascipt (Node, NPM, React, Redux)</li>
 										<li class="icon solid fa-code">HTML/CSS (Semantic HTML)</li>
@@ -84,21 +89,21 @@
 									<p></p>
 									<div class="features">
 										<article>
-											<a href="images/lmt.png" class="image"><img src="images/lmt.png" alt="" id="lmt"/></a>
+											<img src="images/lmt.png" alt="" id="lmt" class='image'/>
 											<div class="inner">
 												<h4>League Management Tool</h4>
 												<p>Web application using Sinatra & PostgreSQL to solve problem of little league sports team roster and schedule management including adding sports, leagues, teams, players and games. Users can also assign coaches, print schedules and update rosters.</p>
 											</div>
 										</article>
 										<article>
-											<a href="images/request-bucket.png" class="image"><img src="images/request-bucket.png" alt="" id="requestBucket" /></a>
+											<img src="images/request-bucket.png" alt="" id="requestBucket" class='image'/>
 											<div class="inner">
 												<h4>Request Bucket</h4>
 												<p>RequestBucket is an application for collecting and inspecting HTTP/webhook requests. Built with Node, Express and PostgreSQL.</p>
 											</div>
 										</article>
 										<article>
-											<a href="images/jello.png" class="image"><img src="images/jello.png" id="jello" alt="" /></a>
+											<img src="images/jello.png" id="jello" alt="" class='image'/>
 											<div class="inner">
 												<h4>Jello</h4>
 												<p>Jello is a project manager application inspired by Trello built with Node, Express, MongoDB and React/Redux.</p>
@@ -109,7 +114,7 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+							<!-- <section id="four">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>I'm currently open for new opportunities and you may reach out on the form below. Thank you for taking the time to visit!</p>
@@ -128,7 +133,7 @@
 										</div>
 									</form>
 								</div>
-							</section>
+							</section> -->
 					</div>
 
 				<!-- Footer -->
